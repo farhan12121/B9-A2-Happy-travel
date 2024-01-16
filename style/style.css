@@ -50,7 +50,7 @@
 .banner {
     width: 1170px;
     height: 500px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center ;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center;
     background-size: 100%;
     border-radius: 8px;
     margin: 0 auto;
@@ -93,7 +93,8 @@
     font-size: 16px;
     font-weight: 400;
 }
-.btn{
+
+.btn {
     width: 174px;
     height: 52px;
     border: 0;
@@ -103,4 +104,131 @@
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* Out-pupoler-tour */
+.tour-section {
+    display: flex;
+    gap: 50px;
+    width: 1170px;
+    margin: 100px auto;
+}
+
+.tour-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* destination-section  */
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.des-img {
+    margin-top: 24px;
+    margin: bottom 100px;
+    ;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.img-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 230px;
+    background: url('../Images/Rectangle\ 5.png') no-repeat;
+}
+
+.img-2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 230px;
+    background: url('../Images/Rectangle\ 8.png') no-repeat;
+}
+
+.img-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.img-3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 130px;
+    background: url('../Images/Rectangle\ 6.png') no-repeat;
+}
+
+.img-4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 140px;
+    background: url('../Images/Rectangle\ 7.png') no-repeat;
+}
+
+.img-5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 80px;
+    /* margin-left: 10px; */
+    background: url('../Images/Rectangle\ 9.png') no-repeat;
+}
+
+.img-container-3 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.img-6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 130px 155px;
+    background: url('../Images/Rectangle\ 11.png') no-repeat;
+}
+
+.img-7 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 130px 265px;
+    background: url('../Images/Rectangle\ 10.png') no-repeat;
 }

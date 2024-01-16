@@ -4,7 +4,7 @@
 
     .header-1,
     .main-1 {
-        margin: 20px 20px;
+        margin: 15px 15px;
     }
 
     .nav-bar {
@@ -39,5 +39,106 @@
 
     .input-manu {
         width: 100%;
+    }
+
+    /* out-tour-section */
+    .tour-section {
+        flex-direction: column;
+
+    }
+
+    .tour-title {
+        width: 330px;
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .tour-description {
+        width: 300px;
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .tour-img img {
+        width: 335px;
+        height: 342px;
+    }
+
+    .destination-title {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .destination-description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-container {
+        flex-direction: column;
+        gap: 0;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .img-container-2{
+            flex-direction: column;
+            gap: 10px;
+            margin: 0 0 10px 0;
+            padding: 0;
+    }
+    .img-container-3 {
+        flex-direction: column;
+        gap: 0;
+        margin: 10px 0;
+        padding: 0;
+
+    }
+
+    .img-1 {
+        background-size: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 50px 120px 50px 120px;
+        margin-bottom: 16px;
+    }
+
+    .img-2 {
+        background-size: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 50px 120px 50px 120px;
+        margin-bottom: 16px;
+    }
+
+    .img-3 {
+        background-size: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 50px 125px 50px 125px;
+        margin-bottom: 16px;
+    }
+
+    .img-4 {
+        background-size: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 50px 100px 50px 100px;
+        margin-bottom: 16px;
+    }
+
+    .img-5,
+    .img-6,
+    .img-7 {
+        background-size: 90%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 50px 120px 50px 120px;
+        margin-bottom: 16px;
     }
 }
