@@ -372,6 +372,27 @@
     margin: 0;
     padding-bottom: 20px;
 }
+/* Free-buffet-dinner */
+.winter-offer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.offer-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.offer-description{
+    width: 600px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.offer-img img{
+    border-radius: 16px;
+}
 
 /* footer-section */
 .footer {
