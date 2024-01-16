@@ -176,4 +176,58 @@
         height: 300px;
         margin: 20px 0;
     }
+
+    /* News-section */
+    .news-section {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .news-1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+    .news-description {
+        width: 270px;
+        font-size: 14px;
+
+    }
+
+    .news-input input {
+        width: 250px;
+        height: 45px;
+    }
+
+    .news-subscribe button {
+        width: 290px;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .news-img img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .discount {
+        width: 200px;
+        height: 70px;
+        margin-left: 98px;
+        position: relative;
+        bottom: 105px;
+    }
+
+    .discount-discription {
+        font-size: 14px;
+    }
+
+    .discount-title {
+        font-size: 20px;
+    }
 }
