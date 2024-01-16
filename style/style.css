@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Merriweather:ital,wght@0,400;0,700;1,700;1,900&family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Mulish';
+}
+
+.header-1,
+.main-1 {
+    margin: 50px 135px;
+}
+
+/* navigation bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.happy-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.happy-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.praimary {
+    color: #FF5400;
+}
+
+.happy-2-layout ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.happy-2-layout a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
