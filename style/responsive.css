@@ -2,12 +2,20 @@
 
 @media screen and (max-width: 576px) {
 
-    .header-1,
-    .main-1 {
+    .header-1{
         margin: 15px 15px;
+    }
+    .main-1{
+        margin: 0 0 0 20px;
     }
 
     .nav-bar {
+        flex-direction: column;
+    }
+    .happy-title{
+        font-size: 20px;
+    }
+    .happy-2-layout ul{
         flex-direction: column;
     }
 
@@ -44,6 +52,7 @@
     /* out-tour-section */
     .tour-section {
         flex-direction: column;
+        width: 330px;
 
     }
 
@@ -67,6 +76,7 @@
         width: 335px;
         height: 342px;
     }
+/* Choosw-Your Destination */
 
     .destination-title {
         font-size: 20px;
@@ -75,7 +85,7 @@
     }
 
     .destination-description {
-        width: 100%;
+        width: 330px;
         font-size: 14px;
     }
 
@@ -152,7 +162,7 @@
     }
 
     .choose-description {
-        width: 309px;
+        width: 320px;
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
         font-size: 14px;
@@ -229,5 +239,11 @@
 
     .discount-title {
         font-size: 20px;
+    }
+    .social-icon img{
+        margin: 20px 100px;
+    }
+    .line{
+        width: 300px;
     }
 }
