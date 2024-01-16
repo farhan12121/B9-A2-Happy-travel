@@ -45,3 +45,62 @@
     font-weight: 400;
     text-decoration: none;
 }
+
+/* banner section */
+.banner {
+    width: 1170px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center ;
+    background-size: 100%;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-input {
+    display: inline-flex;
+    /* border: 2px solid saddlebrown; */
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 20px 185px;
+    margin-bottom: 100px;
+}
+
+.input-manu {
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}

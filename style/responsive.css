@@ -1,0 +1,43 @@
+/* Mobile Device */
+
+@media screen and (max-width: 576px) {
+
+    .header-1,
+    .main-1 {
+        margin: 20px 20px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    /* banner saction */
+    .banner {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center;
+        background-size: 500px 100%;
+    }
+
+    .banner-title {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .banner-description {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .banner-input {
+        flex-direction: column;
+        margin: 20px 60px;
+    }
+
+    .input-manu {
+        width: 100%;
+    }
+}
